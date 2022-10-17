@@ -1,11 +1,16 @@
 # Housing prices around the world. Is it worth what we pay?
 
 ### Data source:
+#### Title
 National and regional house price indices - complete database
+#### Agency 
 The Organisation for Economic Co-operation and Development (OECD)
+#### Location
 https://github.com/RodSlzr/CAPP30239_FA22/tree/main/week_03/OECD_house_prices_data.csv
+#### Link
 https://www.oecd-ilibrary.org/economics/data/prices/national-and-regional-house-price-indices_2dc6f1df-en 
-Other DB: https://stats.oecd.org/index.aspx?lang=en 
+#### Other DB
+https://stats.oecd.org/index.aspx?lang=en 
 
 ### Description of data:
 Quarterly House Price Index by region within countries.
