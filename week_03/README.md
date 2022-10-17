@@ -1,4 +1,6 @@
-Data source: Title, Agency, Location, Link
+Housing prices around the world. Is it worth what we pay?
+
+Data source:
 National and regional house price indices - complete database
 The Organisation for Economic Co-operation and Development (OECD)
 https://github.com/RodSlzr/CAPP30239_FA22/tree/main/week_03/OECD_house_prices_data.csv
