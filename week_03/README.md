@@ -1,4 +1,10 @@
-# Housing prices around the world. Is it worth what we pay?
+# My first charts using D3 and my data for my final project
+
+## First charts
+This week I learned to create a covid chart using D3 in the index.html and script.js files. Then I did another chart using libraries visits in the homework.html and the homework.js files. This is how it looks:
+![Libraries visits](libraries_chart.png)
+
+## Final Project Data: "Housing prices around the world. Is it worth what we pay?"
 
 ### Data source:
 #### Title
