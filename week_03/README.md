@@ -1,4 +1,4 @@
-# My first charts using D3 and my data for my final project
+# My first charts using D3 and data for my final project
 
 ## First charts
 This week I learned how to create a covid chart using D3 in the index.html and script.js files. Then I did another chart using libraries visits in the homework.html and the homework.js files. This is how it looks:
