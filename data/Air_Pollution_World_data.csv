@@ -1,0 +1,197 @@
+﻿COU,Country,Variable,Year,Unit,PowerCode,Value
+OECD,OECD - Total,"DALYs, per thousand inhabitants",1990,Per 1 000 inhabitants,Units,11.463
+OECD,OECD - Total,"DALYs, per thousand inhabitants",1995,Per 1 000 inhabitants,Units,10.396
+OECD,OECD - Total,"DALYs, per thousand inhabitants",2000,Per 1 000 inhabitants,Units,9.072
+OECD,OECD - Total,"DALYs, per thousand inhabitants",2005,Per 1 000 inhabitants,Units,7.816
+OECD,OECD - Total,"DALYs, per thousand inhabitants",2010,Per 1 000 inhabitants,Units,7.21
+OECD,OECD - Total,"DALYs, per thousand inhabitants",2015,Per 1 000 inhabitants,Units,6.546
+OECD,OECD - Total,"DALYs, per thousand inhabitants",2019,Per 1 000 inhabitants,Units,6.349
+OECD,OECD - Total,DALYs,1990,Number,Units,12674590
+OECD,OECD - Total,DALYs,1995,Number,Units,11966500
+OECD,OECD - Total,DALYs,2000,Number,Units,10839900
+OECD,OECD - Total,DALYs,2005,Number,Units,9689225
+OECD,OECD - Total,DALYs,2010,Number,Units,9272153
+OECD,OECD - Total,DALYs,2015,Number,Units,8690132
+OECD,OECD - Total,DALYs,2019,Number,Units,8614993
+OECD,OECD - Total,"Premature deaths, per million inhabitants",1990,Per 1 000 000 inhabitants,Units,467.125
+OECD,OECD - Total,"Premature deaths, per million inhabitants",1995,Per 1 000 000 inhabitants,Units,432.155
+OECD,OECD - Total,"Premature deaths, per million inhabitants",2000,Per 1 000 000 inhabitants,Units,380.336
+OECD,OECD - Total,"Premature deaths, per million inhabitants",2005,Per 1 000 000 inhabitants,Units,328.999
+OECD,OECD - Total,"Premature deaths, per million inhabitants",2010,Per 1 000 000 inhabitants,Units,304.587
+OECD,OECD - Total,"Premature deaths, per million inhabitants",2015,Per 1 000 000 inhabitants,Units,279.623
+OECD,OECD - Total,"Premature deaths, per million inhabitants",2019,Per 1 000 000 inhabitants,Units,275.211
+OECD,OECD - Total,Premature deaths,1990,Number,Units,516505
+OECD,OECD - Total,Premature deaths,1995,Number,Units,497459
+OECD,OECD - Total,Premature deaths,2000,Number,Units,454470
+OECD,OECD - Total,Premature deaths,2005,Number,Units,407851
+OECD,OECD - Total,Premature deaths,2010,Number,Units,391688
+OECD,OECD - Total,Premature deaths,2015,Number,Units,371212
+OECD,OECD - Total,Premature deaths,2019,Number,Units,373459
+OECD,OECD - Total,"Welfare cost of premature deaths, USD per capita",1990,US Dollar,Units,1345.81
+OECD,OECD - Total,"Welfare cost of premature deaths, USD per capita",1995,US Dollar,Units,1298.24
+OECD,OECD - Total,"Welfare cost of premature deaths, USD per capita",2000,US Dollar,Units,1271.6
+OECD,OECD - Total,"Welfare cost of premature deaths, USD per capita",2005,US Dollar,Units,1157.24
+OECD,OECD - Total,"Welfare cost of premature deaths, USD per capita",2010,US Dollar,Units,1069.13
+OECD,OECD - Total,"Welfare cost of premature deaths, USD per capita",2015,US Dollar,Units,1017.11
+OECD,OECD - Total,"Welfare cost of premature deaths, USD per capita",2019,US Dollar,Units,1049.96
+OECD,OECD - Total,"Welfare cost of premature deaths, % GDP equivalent",1990,Percentage,Units,4.770716
+OECD,OECD - Total,"Welfare cost of premature deaths, % GDP equivalent",1995,Percentage,Units,4.308106
+OECD,OECD - Total,"Welfare cost of premature deaths, % GDP equivalent",2000,Percentage,Units,3.698908
+OECD,OECD - Total,"Welfare cost of premature deaths, % GDP equivalent",2005,Percentage,Units,3.120887
+OECD,OECD - Total,"Welfare cost of premature deaths, % GDP equivalent",2010,Percentage,Units,2.822608
+OECD,OECD - Total,"Welfare cost of premature deaths, % GDP equivalent",2015,Percentage,Units,2.513091
+OECD,OECD - Total,"Welfare cost of premature deaths, % GDP equivalent",2019,Percentage,Units,2.439313
+OECD,OECD - Total,"Welfare cost of premature deaths, millions 2015 USD PPP",1990,US Dollar,Millions,1488069
+OECD,OECD - Total,"Welfare cost of premature deaths, millions 2015 USD PPP",1995,US Dollar,Millions,1494417
+OECD,OECD - Total,"Welfare cost of premature deaths, millions 2015 USD PPP",2000,US Dollar,Millions,1519461
+OECD,OECD - Total,"Welfare cost of premature deaths, millions 2015 USD PPP",2005,US Dollar,Millions,1434599
+OECD,OECD - Total,"Welfare cost of premature deaths, millions 2015 USD PPP",2010,US Dollar,Millions,1374862
+OECD,OECD - Total,"Welfare cost of premature deaths, millions 2015 USD PPP",2015,US Dollar,Millions,1350258
+OECD,OECD - Total,"Welfare cost of premature deaths, millions 2015 USD PPP",2019,US Dollar,Millions,1424786
+G7M,G7,"DALYs, per thousand inhabitants",1990,Per 1 000 inhabitants,Units,10.099
+G7M,G7,"DALYs, per thousand inhabitants",1995,Per 1 000 inhabitants,Units,8.984
+G7M,G7,"DALYs, per thousand inhabitants",2000,Per 1 000 inhabitants,Units,7.846
+G7M,G7,"DALYs, per thousand inhabitants",2005,Per 1 000 inhabitants,Units,6.737
+G7M,G7,"DALYs, per thousand inhabitants",2010,Per 1 000 inhabitants,Units,5.837
+G7M,G7,"DALYs, per thousand inhabitants",2015,Per 1 000 inhabitants,Units,5.045
+G7M,G7,"DALYs, per thousand inhabitants",2019,Per 1 000 inhabitants,Units,4.783
+G7M,G7,DALYs,1990,Number,Units,6605534
+G7M,G7,DALYs,1995,Number,Units,6062180
+G7M,G7,DALYs,2000,Number,Units,5459965
+G7M,G7,DALYs,2005,Number,Units,4828891
+G7M,G7,DALYs,2010,Number,Units,4308754
+G7M,G7,DALYs,2015,Number,Units,3821595
+G7M,G7,DALYs,2019,Number,Units,3680824
+G7M,G7,"Premature deaths, per million inhabitants",1990,Per 1 000 000 inhabitants,Units,456.69
+G7M,G7,"Premature deaths, per million inhabitants",1995,Per 1 000 000 inhabitants,Units,414.437
+G7M,G7,"Premature deaths, per million inhabitants",2000,Per 1 000 000 inhabitants,Units,361.172
+G7M,G7,"Premature deaths, per million inhabitants",2005,Per 1 000 000 inhabitants,Units,303.831
+G7M,G7,"Premature deaths, per million inhabitants",2010,Per 1 000 000 inhabitants,Units,261.436
+G7M,G7,"Premature deaths, per million inhabitants",2015,Per 1 000 000 inhabitants,Units,229.668
+G7M,G7,"Premature deaths, per million inhabitants",2019,Per 1 000 000 inhabitants,Units,221.729
+G7M,G7,Premature deaths,1990,Number,Units,298707
+G7M,G7,Premature deaths,1995,Number,Units,279638
+G7M,G7,Premature deaths,2000,Number,Units,251323
+G7M,G7,Premature deaths,2005,Number,Units,217779
+G7M,G7,Premature deaths,2010,Number,Units,192991
+G7M,G7,Premature deaths,2015,Number,Units,173989
+G7M,G7,Premature deaths,2019,Number,Units,170646
+G7M,G7,"Welfare cost of premature deaths, USD per capita",1990,US Dollar,Units,1608.68
+G7M,G7,"Welfare cost of premature deaths, USD per capita",1995,US Dollar,Units,1544.68
+G7M,G7,"Welfare cost of premature deaths, USD per capita",2000,US Dollar,Units,1488.36
+G7M,G7,"Welfare cost of premature deaths, USD per capita",2005,US Dollar,Units,1313.1
+G7M,G7,"Welfare cost of premature deaths, USD per capita",2010,US Dollar,Units,1122.94
+G7M,G7,"Welfare cost of premature deaths, USD per capita",2015,US Dollar,Units,1016.13
+G7M,G7,"Welfare cost of premature deaths, USD per capita",2019,US Dollar,Units,1019.97
+G7M,G7,"Welfare cost of premature deaths, % GDP equivalent",1990,Percentage,Units,4.603416
+G7M,G7,"Welfare cost of premature deaths, % GDP equivalent",1995,Percentage,Units,4.130018
+G7M,G7,"Welfare cost of premature deaths, % GDP equivalent",2000,Percentage,Units,3.513922
+G7M,G7,"Welfare cost of premature deaths, % GDP equivalent",2005,Percentage,Units,2.89839
+G7M,G7,"Welfare cost of premature deaths, % GDP equivalent",2010,Percentage,Units,2.464762
+G7M,G7,"Welfare cost of premature deaths, % GDP equivalent",2015,Percentage,Units,2.103659
+G7M,G7,"Welfare cost of premature deaths, % GDP equivalent",2019,Percentage,Units,1.99406
+G7M,G7,"Welfare cost of premature deaths, millions 2015 USD PPP",1990,US Dollar,Millions,1052187
+G7M,G7,"Welfare cost of premature deaths, millions 2015 USD PPP",1995,US Dollar,Millions,1042260
+G7M,G7,"Welfare cost of premature deaths, millions 2015 USD PPP",2000,US Dollar,Millions,1035680
+G7M,G7,"Welfare cost of premature deaths, millions 2015 USD PPP",2005,US Dollar,Millions,941198.9
+G7M,G7,"Welfare cost of premature deaths, millions 2015 USD PPP",2010,US Dollar,Millions,828944.6
+G7M,G7,"Welfare cost of premature deaths, millions 2015 USD PPP",2015,US Dollar,Millions,769785.4
+G7M,G7,"Welfare cost of premature deaths, millions 2015 USD PPP",2019,US Dollar,Millions,784986.1
+WLD,World,"DALYs, per thousand inhabitants",1990,Per 1 000 inhabitants,Units,13.23
+WLD,World,"DALYs, per thousand inhabitants",1995,Per 1 000 inhabitants,Units,13.165
+WLD,World,"DALYs, per thousand inhabitants",2000,Per 1 000 inhabitants,Units,13.493
+WLD,World,"DALYs, per thousand inhabitants",2005,Per 1 000 inhabitants,Units,13.693
+WLD,World,"DALYs, per thousand inhabitants",2010,Per 1 000 inhabitants,Units,14.513
+WLD,World,"DALYs, per thousand inhabitants",2015,Per 1 000 inhabitants,Units,15.567
+WLD,World,"DALYs, per thousand inhabitants",2019,Per 1 000 inhabitants,Units,15.329
+WLD,World,DALYs,1990,Number,Units,70478350
+WLD,World,DALYs,1995,Number,Units,75619860
+WLD,World,DALYs,2000,Number,Units,82892280
+WLD,World,DALYs,2005,Number,Units,89579620
+WLD,World,DALYs,2010,Number,Units,100965000
+WLD,World,DALYs,2015,Number,Units,114877700
+WLD,World,DALYs,2019,Number,Units,118215400
+WLD,World,"Premature deaths, per million inhabitants",1990,Per 1 000 000 inhabitants,Units,384.284
+WLD,World,"Premature deaths, per million inhabitants",1995,Per 1 000 000 inhabitants,Units,400.697
+WLD,World,"Premature deaths, per million inhabitants",2000,Per 1 000 000 inhabitants,Units,424.369
+WLD,World,"Premature deaths, per million inhabitants",2005,Per 1 000 000 inhabitants,Units,445.282
+WLD,World,"Premature deaths, per million inhabitants",2010,Per 1 000 000 inhabitants,Units,482.886
+WLD,World,"Premature deaths, per million inhabitants",2015,Per 1 000 000 inhabitants,Units,524.498
+WLD,World,"Premature deaths, per million inhabitants",2019,Per 1 000 000 inhabitants,Units,536.966
+WLD,World,Premature deaths,1990,Number,Units,2047171
+WLD,World,Premature deaths,1995,Number,Units,2301687
+WLD,World,Premature deaths,2000,Number,Units,2607107
+WLD,World,Premature deaths,2005,Number,Units,2912992
+WLD,World,Premature deaths,2010,Number,Units,3359355
+WLD,World,Premature deaths,2015,Number,Units,3870691
+WLD,World,Premature deaths,2019,Number,Units,4140971
+WLD,World,"Welfare cost of premature deaths, USD per capita",1990,US Dollar,Units,419.74
+WLD,World,"Welfare cost of premature deaths, USD per capita",1995,US Dollar,Units,451.33
+WLD,World,"Welfare cost of premature deaths, USD per capita",2000,US Dollar,Units,530.17
+WLD,World,"Welfare cost of premature deaths, USD per capita",2005,US Dollar,Units,621.53
+WLD,World,"Welfare cost of premature deaths, USD per capita",2010,US Dollar,Units,749.32
+WLD,World,"Welfare cost of premature deaths, USD per capita",2015,US Dollar,Units,902.12
+WLD,World,"Welfare cost of premature deaths, USD per capita",2019,US Dollar,Units,1004.43
+WLD,World,"Welfare cost of premature deaths, % GDP equivalent",1990,Percentage,Units,4.408395
+WLD,World,"Welfare cost of premature deaths, % GDP equivalent",1995,Percentage,Units,4.581672
+WLD,World,"Welfare cost of premature deaths, % GDP equivalent",2000,Percentage,Units,4.798584
+WLD,World,"Welfare cost of premature deaths, % GDP equivalent",2005,Percentage,Units,4.975409
+WLD,World,"Welfare cost of premature deaths, % GDP equivalent",2010,Percentage,Units,5.334965
+WLD,World,"Welfare cost of premature deaths, % GDP equivalent",2015,Percentage,Units,5.730674
+WLD,World,"Welfare cost of premature deaths, % GDP equivalent",2019,Percentage,Units,5.815162
+WLD,World,"Welfare cost of premature deaths, millions 2015 USD PPP",1990,US Dollar,Millions,2236058
+WLD,World,"Welfare cost of premature deaths, millions 2015 USD PPP",1995,US Dollar,Millions,2592513
+WLD,World,"Welfare cost of premature deaths, millions 2015 USD PPP",2000,US Dollar,Millions,3257109
+WLD,World,"Welfare cost of premature deaths, millions 2015 USD PPP",2005,US Dollar,Millions,4066015
+WLD,World,"Welfare cost of premature deaths, millions 2015 USD PPP",2010,US Dollar,Millions,5212867
+WLD,World,"Welfare cost of premature deaths, millions 2015 USD PPP",2015,US Dollar,Millions,6657497
+WLD,World,"Welfare cost of premature deaths, millions 2015 USD PPP",2019,US Dollar,Millions,7745942
+G20,G20,"DALYs, per thousand inhabitants",1990,Per 1 000 inhabitants,Units,13.421
+G20,G20,"DALYs, per thousand inhabitants",1995,Per 1 000 inhabitants,Units,13.383
+G20,G20,"DALYs, per thousand inhabitants",2000,Per 1 000 inhabitants,Units,13.819
+G20,G20,"DALYs, per thousand inhabitants",2005,Per 1 000 inhabitants,Units,14.156
+G20,G20,"DALYs, per thousand inhabitants",2010,Per 1 000 inhabitants,Units,15.302
+G20,G20,"DALYs, per thousand inhabitants",2015,Per 1 000 inhabitants,Units,16.596
+G20,G20,"DALYs, per thousand inhabitants",2019,Per 1 000 inhabitants,Units,16.595
+G20,G20,DALYs,1990,Number,Units,49555060
+G20,G20,DALYs,1995,Number,Units,52513990
+G20,G20,DALYs,2000,Number,Units,57163380
+G20,G20,DALYs,2005,Number,Units,61405590
+G20,G20,DALYs,2010,Number,Units,69414860
+G20,G20,DALYs,2015,Number,Units,78394510
+G20,G20,DALYs,2019,Number,Units,80583540
+G20,G20,"Premature deaths, per million inhabitants",1990,Per 1 000 000 inhabitants,Units,419.385
+G20,G20,"Premature deaths, per million inhabitants",1995,Per 1 000 000 inhabitants,Units,437.563
+G20,G20,"Premature deaths, per million inhabitants",2000,Per 1 000 000 inhabitants,Units,470.137
+G20,G20,"Premature deaths, per million inhabitants",2005,Per 1 000 000 inhabitants,Units,498.479
+G20,G20,"Premature deaths, per million inhabitants",2010,Per 1 000 000 inhabitants,Units,551.162
+G20,G20,"Premature deaths, per million inhabitants",2015,Per 1 000 000 inhabitants,Units,606.888
+G20,G20,"Premature deaths, per million inhabitants",2019,Per 1 000 000 inhabitants,Units,630.184
+G20,G20,Premature deaths,1990,Number,Units,1548507
+G20,G20,Premature deaths,1995,Number,Units,1716935
+G20,G20,Premature deaths,2000,Number,Units,1944701
+G20,G20,Premature deaths,2005,Number,Units,2162325
+G20,G20,Premature deaths,2010,Number,Units,2500265
+G20,G20,Premature deaths,2015,Number,Units,2866703
+G20,G20,Premature deaths,2019,Number,Units,3060157
+G20,G20,"Welfare cost of premature deaths, USD per capita",1990,US Dollar,Units,537.84
+G20,G20,"Welfare cost of premature deaths, USD per capita",1995,US Dollar,Units,525.58
+G20,G20,"Welfare cost of premature deaths, USD per capita",2000,US Dollar,Units,566.67
+G20,G20,"Welfare cost of premature deaths, USD per capita",2005,US Dollar,Units,624.73
+G20,G20,"Welfare cost of premature deaths, USD per capita",2010,US Dollar,Units,766.1
+G20,G20,"Welfare cost of premature deaths, USD per capita",2015,US Dollar,Units,918.22
+G20,G20,"Welfare cost of premature deaths, USD per capita",2019,US Dollar,Units,1070.64
+G20,G20,"Welfare cost of premature deaths, % GDP equivalent",1990,Percentage,Units,4.896801
+G20,G20,"Welfare cost of premature deaths, % GDP equivalent",1995,Percentage,Units,4.58559
+G20,G20,"Welfare cost of premature deaths, % GDP equivalent",2000,Percentage,Units,4.345059
+G20,G20,"Welfare cost of premature deaths, % GDP equivalent",2005,Percentage,Units,4.237644
+G20,G20,"Welfare cost of premature deaths, % GDP equivalent",2010,Percentage,Units,4.611844
+G20,G20,"Welfare cost of premature deaths, % GDP equivalent",2015,Percentage,Units,4.858577
+G20,G20,"Welfare cost of premature deaths, % GDP equivalent",2019,Percentage,Units,5.112207
+G20,G20,"Welfare cost of premature deaths, millions 2015 USD PPP",1990,US Dollar,Millions,1985888
+G20,G20,"Welfare cost of premature deaths, millions 2015 USD PPP",1995,US Dollar,Millions,2062282
+G20,G20,"Welfare cost of premature deaths, millions 2015 USD PPP",2000,US Dollar,Millions,2344008
+G20,G20,"Welfare cost of premature deaths, millions 2015 USD PPP",2005,US Dollar,Millions,2709998
+G20,G20,"Welfare cost of premature deaths, millions 2015 USD PPP",2010,US Dollar,Millions,3475321
+G20,G20,"Welfare cost of premature deaths, millions 2015 USD PPP",2015,US Dollar,Millions,4337321
+G20,G20,"Welfare cost of premature deaths, millions 2015 USD PPP",2019,US Dollar,Millions,5199016
