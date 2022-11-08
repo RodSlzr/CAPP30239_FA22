@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MSCAPP Data Visualization for Public Policy</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>People killed in 2015 by police officers</h1>
+    <p> The dataset used for this analysis includes features sucha as gender, race, date, city, state, manner of death, if they were armed, 
+      if they have a mental illness or if they flee.
+    </p><br>
+    <h2>Age distribution</h2>
+    <div id="histogram"></div>
+    <p> I chose to use this graph to see if there was a relationship between the age group
+      and the killings. Effectively, we can see that the ages of most of the people killed ranges between
+      20 and 40 years old. Understanding why this groups are more vulnerable to this fatal destinies
+      is vital to come to better solutions.
+      Some complementary information would be the demograpgic age distribution, to disccount that effect.
+    </p><br>
+    <h2>Killings by race</h2>
+    <div id="horizontal-chart" class="flex-item"></div>
+    <p> Then, I decided to use this graph to see the amount of people killed by race.
+      This graph can be misleading. As some people might interpret that white people is more
+      vulnerable to be killed by the police. However, to understand the whole picture is 
+      necessary to compare it to the proportions of people of these groups. That way, we will
+      see if some groups are more vulnerable than others.
+    </p><br>
+    <h2>Mental illness proportion</h2>
+    <div id="chart" class="ring"></div>
+    <p> Finally, I chose this aggregations of the data as it is unusual to know in police killings
+      any informations regarding mental illnesses. I was sorprised by the amount of people 
+      with a mental illness involved in this type of incidents. To get a better understanding of
+      this data it would be very important to know what kind of mental illnesses are considered, so
+      we can see if there are some that make people particularly more vulnerable
+    </p><br>
+  </div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="police_killings_ring_mental_ill.js"></script>
+  <script src="horizontal_bar_race.js"></script>
+  <script src="histogram_age.js"></script>
+</html>
