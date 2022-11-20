@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Pollution Premature Deaths</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Assistant', sans-serif;
+        }
+        .container {
+            max-width: 1000px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: normal;
+            align-items: normal;
+            align-content: normal;
+            column-gap: 40px;
+            margin: 60px 0px;
+        }
+        .flex-item {
+            display: block;
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto;
+            align-self: auto;
+            order: 0;
+            width: 50%;
+        }
+        .float-left {
+            float:left;
+            width: 50%;
+        }
+        text {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+        }
+        hr {
+            margin: 60px 0;
+        }
+        .chart p {
+            background: #eee;
+            padding: 5px 0px 5px 10px;
+            margin-right: 10px;
+        }
+        #monthChart .y-axis line {
+            stroke: #ccc;
+            stroke-dasharray: 2;
+        }
+
+        #monthChart .y-axis .domain {
+            display: none;
+        }
+        #divergingChart text {
+            font-size: 14px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_ring.css">
+    <link rel="stylesheet" href="styles_map.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Air Pollution Prematute Deaths Insights
+        </h1>
+        <p>This is a first version of the analysis. I expect to incorporate a couple more graphs that help constructing the narrative.
+            Also, some dynamic implementations might be incorporated to the current ones. </p>
+        <div class="flex-container">
+            <div class="flex-item">
+                <h2>
+                    Premature Deaths per million inhabitants in 1990 (x) vs 2019 (y).
+                    Radius represent total deaths in 2019.
+                </h2>
+                <p>Half of the countries are worse than 30 years ago. China and India are the countries with the highest amount of premature deaths.</p>
+                <p>
+                    The data comes from the <a href="https://stats.oecd.org/index.aspx?lang=en#">OECD</a>.
+                </p>
+            </div>
+            <div id="chart" class="flex-item chart">
+            </div>
+        </div>
+        <div class="flex-container">
+            <div id="ring" class="flex-item chart"></div>
+            <div class="flex-item">
+                <h2>
+                    The most vulnerable group are people of age 65 and older.
+                </h2>
+                <p>
+                    The data comes from the <a href="https://stats.oecd.org/index.aspx?lang=en#">OECD</a>.
+                </p>
+            </div>
+        </div>
+        <div id="container">
+            <h1>Percent of GDP impact by country.</h1>
+            <p>
+                In the next map we show the welfare cost by country as a percent of their GDP in 2019.
+                We can see that the GDP highest impacts is highly concentrated in certain regions, like the Balkans.
+                Also many countries than expected are affceted by percentages larger than 5 %.
+            </p>
+            <div id="legend"></div>
+            <div id="chart_map"></div>
+            <p>
+                The data comes from the <a href="https://stats.oecd.org/index.aspx?lang=en#">OECD</a>.
+            </p>
+        </div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="libs/d3-color-legend.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+    <script src="scatterplot.js"></script>
+    <script src="ring.js"></script>
+    <script src="map.js"></script>
+</body>
+</html>
