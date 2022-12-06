@@ -1,5 +1,5 @@
 Promise.all([
-  d3.csv("data/data_map_welfare_gdp_19.csv"),
+  d3.csv("data/data_scatter_premdeaths_90vs15vs19.csv"),
   d3.json("libs/countries-110m.json")
 ]).then(([data, world]) => {
 
@@ -13,14 +13,14 @@ Promise.all([
   width = 975;
 
   
-  const svg = d3.select("#chart_map")
+  const svg = d3.select("#chart_map_1990")
   .append("svg")
   .attr("viewBox", [0, 0, width, height]);
 
   const dataByCountry = {};
 
   for (let d of data) {
-    d.welf_cost_gdp = +d.welf_cost_gdp;
+    d.rel_prem_deaths_1990 = +d.rel_prem_deaths_1990;
     //making a lookup table from the array (unemployment data)
     dataByCountry[d.country] = d;
   }
@@ -32,8 +32,9 @@ Promise.all([
 
   // Quantize evenly breakups domain into range buckets
    const color = d3.scaleQuantize()
-     .domain([0, 14]).nice()
-     .range(d3.schemeReds[9]);
+     .domain([50, 850]).nice()
+     .range(d3.schemeBlues[9]);
+
 
   //const path = d3.geoPath();
   const projection = d3.geoMercator()
@@ -41,28 +42,28 @@ Promise.all([
   const path = d3.geoPath().projection(projection);
 
 
-   d3.select("#legend")
+   d3.select("#legend_map_1990")
      .node()
      .appendChild(
        Legend(
          d3.scaleOrdinal(
-           ["1.5", "3", "4.5", "6", "7.5", "9", "10.5", "12", "13.5+"],
-           d3.schemeReds[9]
+           ["50", "150", "250", "350", "450", "550", "650", "750", "850+"],
+           d3.schemeBlues[9]
          ),
-         { title: "Percent of GDP (%)" }
+         { title: "Premature deaths per million people" }
        ));
 
    svg.append("g")
      .selectAll("path")
      .data(countries.features)
      .join("path")
-     .attr("fill", d => (d.properties.name in dataByCountry) ? color(dataByCountry[d.properties.name].welf_cost_gdp) : '#ccc')
+     .attr("fill", d => (d.properties.name in dataByCountry) ? color(dataByCountry[d.properties.name].rel_prem_deaths_1990) : '#ccc')
      .attr("d", path)
      .on("mousemove", function (event, d) {
        let info = dataByCountry[d.properties.name];
        tooltip
          .style("visibility", "visible")
-         .html(`${info.country}<br>${info.welf_cost_gdp}%`)
+         .html(`${info.country}<br>${info.rel_prem_deaths_1990}`)
          //.html(`${d.properties.name}<br>%`)
          .style("top", (event.pageY - 10) + "px")
          .style("left", (event.pageX + 10) + "px");
@@ -70,6 +71,6 @@ Promise.all([
      })
      .on("mouseout", function () {
        tooltip.style("visibility", "hidden");
-       d3.select(this).attr("fill", d => (d.properties.name in dataByCountry) ? color(dataByCountry[d.properties.name].welf_cost_gdp) : '#ccc');
+       d3.select(this).attr("fill", d => (d.properties.name in dataByCountry) ? color(dataByCountry[d.properties.name].rel_prem_deaths_1990) : '#ccc');
      });
 });

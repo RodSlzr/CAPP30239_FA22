@@ -1,4 +1,4 @@
-let height = 400,
+let height = 600,
     width = 600,
     margin = ({ top: 25, right: 30, bottom: 35, left: 40 });
   
@@ -25,7 +25,43 @@ d3.csv('data/data_scatter_premdeaths_90vs15vs19.csv').then(data => {
 
   const radius = d3.scaleLinear()
     .domain([0, d3.max(data, d => d.abs_prem_deaths_2019)])
-    .range([1, 25]);
+    .range([6, 30]);
+
+  //const color = d3.scaleLinear()
+  //   .domain(['yes', 'no'])//.nice()
+  //   .range(["grey","blue"]);
+
+  svg.append("circle").attr("cx",60).attr("cy",50).attr("r", 6).style("fill", "green")
+  svg.append("text").attr("x", 70).attr("y", 50).text("G7").style("font-size", "15px").attr("alignment-baseline","middle")
+  svg.append("circle").attr("cx",60).attr("cy",70).attr("r", 6).style("fill", "blue")
+  svg.append("text").attr("x", 70).attr("y", 70).text("G20").style("font-size", "15px").attr("alignment-baseline","middle")
+  svg.append("circle").attr("cx",60).attr("cy",90).attr("r", 6).style("fill", "red")
+  svg.append("text").attr("x", 70).attr("y", 90).text("Balkans").style("font-size", "15px").attr("alignment-baseline","middle")
+  svg.append("circle").attr("cx",60).attr("cy",110).attr("r", 6).style("fill", "#cecece")
+  svg.append("text").attr("x", 70).attr("y", 110).text("Rest of the world").style("font-size", "15px").attr("alignment-baseline","middle")
+  svg.append("text").attr("x", 280).attr("y", 595).text("1990").style("font-size", "15px").attr("alignment-baseline","middle")
+  svg.append("text").attr("x", 0).attr("y", 277).text("2019").style("font-size", "15px").attr("alignment-baseline","middle").attr("text-orientation","sideways")
+
+
+  var color_table = {
+    'yes'   : 'green',
+    'no'   : 'red',
+    'other'   : '#cecece',
+    'G7'   : 'green',
+    'G20'   : 'blue',
+    'Eeurope'   : '#cecece',
+    'Balkans'   : 'red'
+    }
+
+  svg.append('line')
+    .attr('x1',x(0))
+    .attr('x2',x(1400))
+    .attr('y1',y(0))
+    .attr('y2',y(1400))
+    .attr('stroke', "red")
+    .attr("fill", "none")
+    .attr("stroke-width", 4);
+
 
   svg.append("g")
     .attr("transform", `translate(0,${height - margin.bottom})`)
@@ -39,20 +75,25 @@ d3.csv('data/data_scatter_premdeaths_90vs15vs19.csv').then(data => {
     .call(d3.axisLeft(y).tickSize(-width + margin.left + margin.right))
 
    svg.append("g")
-     .attr("fill", "#f00")
+     //.attr("fill", "#f00")
+     //.attr("fill", function(d){
+     // console.log(d);
+     // return color_table[d.better]; // modified
+     // })
+     //.attr("fill", d => d.better ? "yes" : '#ccc')
      //.attr("opacity", 0.75)
      .selectAll("circle")
      .data(data)
      .join("circle")
+     .attr("fill", d => color_table[d.cat])
      .attr("r", d => radius(d.abs_prem_deaths_2019)) // struggling
      //.attr("r", d => aScale(d.abs_prem_deaths_2019)) // struggling
      //.attr("transform", d => `translate(${path.centroid(d)})`)
      .attr("cx", d => x(d.rel_prem_deaths_1990))
      .attr("cy", d => y(d.rel_prem_deaths_2019))
      //.attr("r", 2)
-     .attr("opacity", 0.75);
+     .attr("opacity", 0.55);
 
-    console.log(data)
 
    const tooltip = d3.select("body").append("div")
      .attr("class", "svg-tooltip")
@@ -61,7 +102,7 @@ d3.csv('data/data_scatter_premdeaths_90vs15vs19.csv').then(data => {
 
    d3.selectAll("circle")
      .on("mouseover", function(event, d) {
-       d3.select(this).attr("fill", "black");
+       //d3.select(this).attr("fill", "black");
        tooltip
          .style("visibility", "visible")
          .html(`Country: ${d.country}<br />Deaths: ${d.abs_prem_deaths_2019}`);
@@ -72,7 +113,7 @@ d3.csv('data/data_scatter_premdeaths_90vs15vs19.csv').then(data => {
          .style("left", (event.pageX + 10) + "px");
      })
      .on("mouseout", function() {
-       d3.select(this).attr("fill", "red");
+       //d3.select(this).attr("fill", "red");
        tooltip.style("visibility", "hidden");
      })
     
