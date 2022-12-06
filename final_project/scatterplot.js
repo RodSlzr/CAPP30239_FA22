@@ -27,9 +27,6 @@ d3.csv('data/data_scatter_premdeaths_90vs15vs19.csv').then(data => {
     .domain([0, d3.max(data, d => d.abs_prem_deaths_2019)])
     .range([6, 30]);
 
-  //const color = d3.scaleLinear()
-  //   .domain(['yes', 'no'])//.nice()
-  //   .range(["grey","blue"]);
 
   svg.append("circle").attr("cx",60).attr("cy",50).attr("r", 6).style("fill", "green")
   svg.append("text").attr("x", 70).attr("y", 50).text("G7").style("font-size", "15px").attr("alignment-baseline","middle")
@@ -66,7 +63,6 @@ d3.csv('data/data_scatter_premdeaths_90vs15vs19.csv').then(data => {
   svg.append("g")
     .attr("transform", `translate(0,${height - margin.bottom})`)
     .attr("class", "x-axis")
-    //.call(d3.axisBottom(x).tickFormat(d => (d/1000) + "kg").tickSize(-height + margin.top + margin.bottom))
     .call(d3.axisBottom(x).tickSize(-height + margin.top + margin.bottom))
 
   svg.append("g")
@@ -75,23 +71,13 @@ d3.csv('data/data_scatter_premdeaths_90vs15vs19.csv').then(data => {
     .call(d3.axisLeft(y).tickSize(-width + margin.left + margin.right))
 
    svg.append("g")
-     //.attr("fill", "#f00")
-     //.attr("fill", function(d){
-     // console.log(d);
-     // return color_table[d.better]; // modified
-     // })
-     //.attr("fill", d => d.better ? "yes" : '#ccc')
-     //.attr("opacity", 0.75)
      .selectAll("circle")
      .data(data)
      .join("circle")
      .attr("fill", d => color_table[d.cat])
-     .attr("r", d => radius(d.abs_prem_deaths_2019)) // struggling
-     //.attr("r", d => aScale(d.abs_prem_deaths_2019)) // struggling
-     //.attr("transform", d => `translate(${path.centroid(d)})`)
+     .attr("r", d => radius(d.abs_prem_deaths_2019)) 
      .attr("cx", d => x(d.rel_prem_deaths_1990))
      .attr("cy", d => y(d.rel_prem_deaths_2019))
-     //.attr("r", 2)
      .attr("opacity", 0.55);
 
 
@@ -102,7 +88,6 @@ d3.csv('data/data_scatter_premdeaths_90vs15vs19.csv').then(data => {
 
    d3.selectAll("circle")
      .on("mouseover", function(event, d) {
-       //d3.select(this).attr("fill", "black");
        tooltip
          .style("visibility", "visible")
          .html(`Country: ${d.country}<br />Deaths: ${d.abs_prem_deaths_2019}`);
@@ -113,7 +98,6 @@ d3.csv('data/data_scatter_premdeaths_90vs15vs19.csv').then(data => {
          .style("left", (event.pageX + 10) + "px");
      })
      .on("mouseout", function() {
-       //d3.select(this).attr("fill", "red");
        tooltip.style("visibility", "hidden");
      })
     

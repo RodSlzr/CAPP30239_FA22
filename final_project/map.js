@@ -35,7 +35,6 @@ Promise.all([
      .domain([0, 14]).nice()
      .range(d3.schemeReds[9]);
 
-  //const path = d3.geoPath();
   const projection = d3.geoMercator()
     .fitSize([width, height], mesh);
   const path = d3.geoPath().projection(projection);
@@ -63,7 +62,6 @@ Promise.all([
        tooltip
          .style("visibility", "visible")
          .html(`${info.country}<br>${info.welf_cost_gdp}%`)
-         //.html(`${d.properties.name}<br>%`)
          .style("top", (event.pageY - 10) + "px")
          .style("left", (event.pageX + 10) + "px");
        d3.select(this).attr("fill", "goldenrod");
